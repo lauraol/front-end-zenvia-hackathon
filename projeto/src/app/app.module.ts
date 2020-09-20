@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,8 @@ import { PlanosComponent } from './planos/planos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { FooterComponent } from './footer/footer.component';
 import { TimeComponent } from './time/time.component';
+
+import { UsuarioService } from './services/usuario.service';
 
 @NgModule({
   declarations: [
@@ -26,8 +29,8 @@ import { TimeComponent } from './time/time.component';
     FooterComponent,
     TimeComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  providers: [UsuarioService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
