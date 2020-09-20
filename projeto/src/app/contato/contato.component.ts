@@ -24,8 +24,8 @@ export class ContatoComponent implements OnInit {
         this.usuario.email = "";
         this.usuario.phone = "";
         this.usuario.cell_phone = "";
-        this.usuario.quantity = "";
-        this.usuario.newsletter_accept = "";
+        this.usuario.quantity = null;
+        this.usuario.newsletter_accept = true;
         console.log(res);
         alert('Dados enviados com sucesso!');
       },
