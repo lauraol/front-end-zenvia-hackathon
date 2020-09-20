@@ -16,9 +16,16 @@
       src="https://kit.fontawesome.com/1295a463b5.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://static.zenvia.com/embed/js/zenvia-chat.min.js"></script>
   </head>
   <body>
-    <app-root></app-root>
+    <app-root>
+      <script>
+        var chat = new ZenviaChat("95abaa5645b5aad022b1b9b55b8a72eb")
+          .embedded("button")
+          .build();
+      </script>
+    </app-root>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
