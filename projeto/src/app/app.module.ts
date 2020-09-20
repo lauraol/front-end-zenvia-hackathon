@@ -11,6 +11,7 @@ import { ServicosComponent } from './servicos/servicos.component';
 import { PlanosComponent } from './planos/planos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { FooterComponent } from './footer/footer.component';
+import { TimeComponent } from './time/time.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
     PlanosComponent,
     ContatoComponent,
     FooterComponent,
+    TimeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

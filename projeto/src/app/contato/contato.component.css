@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 h2 {
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -6,79 +8,10 @@ h2 {
   padding-bottom: 30px;
 }
 
-.time-texto {
-  margin-bottom: 30px;
+.label-alunos {
+  margin-top: 15px;
 }
 
-.fotos-equipe {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.foto {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  margin-left: 40px;
-}
-
-.descricao,
-.descricao-um {
-  font-family: "Lato", sans-serif;
-  line-height: 0.5em;
-  margin-left: 90px;
-}
-
-.descricao-um {
-  margin-top: 30px;
-}
-
-.icones {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 15px;
-}
-
-a {
-  color: darkslategray;
-}
-
-.separa-um,
-.separa {
-  margin-left: 10px;
-}
-
-.separa-um {
-  margin-left: 20px;
-}
-
-/*responsividade*/
-@media (max-width: 414px) {
-  .fotos-equipe {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .foto {
-    width: 150px;
-    height: 150px;
-    margin-left: 120px;
-  }
-
-  .descricao,
-  .descricao-um {
-    line-height: 0.5em;
-    margin-left: 150px;
-  }
-
-  .icones {
-    display: flex;
-    padding-bottom: 30px;
-  }
-
-  .separa {
-    margin-left: none;
-  }
+.ultimo-campo {
+  margin-bottom: 15px;
 }
