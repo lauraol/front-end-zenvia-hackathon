@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+#planos {
+  background-color: #ea3f3f;
+  padding-bottom: 40px;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.resumo {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: 0.5em;
+  padding-bottom: 40px;
+}
+
+.plano-um {
+  background-color: #7dc153;
+}
+
+.valor-um {
+  color: #7dc153;
+}
+
+.footer-um {
+  background-color: #7dc153;
+  text-align: center;
+}
+
+.footer-link {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.plano-dois {
+  background-color: #dbc050;
+}
+
+.plano-um-txt,
+.plano-dois-txt,
+.plano-tres-txt {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.valor-um,
+.valor-dois,
+.valor-tres {
+  font-family: "Lato", sans-serif;
+
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.valor-dois {
+  color: #dbc050;
+}
+
+.footer-dois {
+  background-color: #dbc050;
+  text-align: center;
+}
+
+.plano-tres {
+  background-color: #9c16d8;
+}
+
+.valor-tres {
+  color: #9c16d8;
+}
+
+.footer-tres {
+  background-color: #9c16d8;
+  text-align: center;
+}
+
+@media (max-width: 414px) {
+  .resumo {
+    line-height: 1em;
+  }
+}

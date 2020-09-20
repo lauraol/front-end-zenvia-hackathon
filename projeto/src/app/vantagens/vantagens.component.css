@@ -1,0 +1,75 @@
+h2 {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.conteudo-vantagens {
+  display: flex;
+}
+
+.circulo {
+  width: 120px;
+  height: 120px;
+  background-color: #ea3f3f;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.numero {
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.vantagem-top,
+.vantagem-top-dois,
+.vantagem-top-tres {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 0.5em;
+  margin-left: 30px;
+}
+
+.vantagem-top {
+  margin-top: 50px;
+}
+
+.vantagem-top-dois {
+  margin-top: 150px;
+}
+
+.vantagem-top-tres {
+  margin-top: 160px;
+}
+
+.vantagem {
+  line-height: 0.5em;
+  margin-left: 30px;
+}
+
+/*responsividade*/
+@media (max-width: 414px) {
+  .vantagem-top,
+  .vantagem-top-dois,
+  .vantagem-top-tres {
+    line-height: 1em;
+    margin-left: 30px;
+  }
+
+  .vantagem-top {
+    margin-top: 20px;
+  }
+
+  .vantagem-top-dois {
+    margin-top: 120px;
+  }
+
+  .vantagem-top-tres {
+    margin-top: 110px;
+  }
+}
