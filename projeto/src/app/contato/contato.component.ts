@@ -20,6 +20,12 @@ export class ContatoComponent implements OnInit {
     console.log(this.usuario);
     this.service.enviaEmail(this.usuario).subscribe(
       (res) => {
+        this.usuario.name = "";
+        this.usuario.email = "";
+        this.usuario.phone = "";
+        this.usuario.cell_phone = "";
+        this.usuario.quantity = "";
+        this.usuario.newsletter_accept = "";
         console.log(res);
         alert('Dados enviados com sucesso!');
       },
