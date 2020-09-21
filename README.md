@@ -1,4 +1,4 @@
-# Landing page Academia Gymhack
+# Landing Page Academia Gymhack
 
 ### Tópicos
 - [Descrição do projeto][1]
@@ -27,6 +27,11 @@ Gymhack é uma plataforma que aumenta a retenção dos clientes e a receita, das
 gymhack.vercel.app/
 
 ## Como rodar a aplicação
+Antes de tudo você precisa ter instalado em sua máquina:
+
+- Node
+- Angular
+
 No terminal, clone o projeto:
 > https://github.com/lauraol/gymhack.git
 
