@@ -24,7 +24,7 @@ Gymhack é uma plataforma que aumenta a retenção dos clientes e a receita, das
 
 ## Link Aplicação Deployada
 
-gymhack.vercel.app/
+<a href="gymhack.vercel.app/">gymhack.vercel.app/</a>
 
 ## Como rodar a aplicação
 Antes de tudo você precisa ter instalado em sua máquina:
